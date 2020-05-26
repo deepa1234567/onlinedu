@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+    <h1>Hello App Engine!</h1>
+    <table>
+     <form action = "HelloAppEngine" method = "GET">
+     	<div>
+         Course Name: <input type = "text"  name = "course_name" required>	 
+        </div>
+        <br/>
+        <div>
+         Course ID: <input type = "text" name = "course_id">
+         </div>
+         <br/>
+         <div>
+         Faculty: <input type = "text"  name ="faculty">
+         </div>
+         <br/>
+         <div>
+        Academic year: <select name = "academic_year">
+      	<option value="2020">2020</option>
+		<option value="2019">2019</option>
+		<option value="2018">2018</option>
+		<option value="2017">2017</option>
+    	</select>
+    	</div>
+    	<br/>
+    	<div>
+    	Language: <select name ="language">
+    	<option value="english">English</option>
+    	<option value="dutch">Dutch</option>
+    	</select>
+    	</div>
+    	<br/>
+   		<div>
+         <input type = "submit" value = "Submit">
+         </div>
+      </form>
+    </table>
+  </body>
+</html>
